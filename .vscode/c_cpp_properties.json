@@ -1,0 +1,63 @@
+{
+    "configurations": [
+        {
+            "name": "Win32",
+            "includePath": [
+                "${workspaceFolder}/**"
+            ],
+            "defines": [
+                "_DEBUG",
+                "UNICODE",
+                "_UNICODE"
+            ],
+            "windowsSdkVersion": "10.0.18362.0",
+            "compilerPath": "C:/Program Files (x86)/Microsoft Visual Studio/2019/Community/VC/Tools/MSVC/14.23.28105/bin/Hostx64/x64/cl.exe",
+            "cStandard": "c11",
+            "cppStandard": "c++17",
+            "intelliSenseMode": "msvc-x64"
+        },
+        {
+            "name": "mingw",
+            "includePath": [
+                "${workspaceFolder}/**",
+                "C:/mingw-w64/i686-8.1.0-posix-dwarf-rt_v6-rev0/mingw32/lib/gcc/i686-w64-mingw32/8.1.0/include/**",
+                "C:/mingw-w64/i686-8.1.0-posix-dwarf-rt_v6-rev0/mingw32/i686-w64-mingw32/include/**"
+            ],
+            "defines": [
+                "_DEBUG",
+                "UNICODE",
+                "_UNICODE",
+                "__MINGW32__"
+            ],
+            "windowsSdkVersion": "10.0.18362.0",
+            "compilerPath": "C:/mingw-w64/i686-8.1.0-posix-dwarf-rt_v6-rev0/mingw32/bin/gcc.exe",
+            "cStandard": "c11",
+            "cppStandard": "c++17",
+            "intelliSenseMode": "gcc-x64",
+            "compilerArgs": [
+                "-Wall ",
+                "-Wextra",
+                "-WShadow",
+                "-Wnon-virtual-dtor",
+                "-Wold-style-cast ",
+                "-Wcast-align ",
+                "-Wunused ",
+                "-Woverloaded-virtual ",
+                "-Wpedantic ",
+                "-Wconversion ",
+                "-Wsign-conversion ",
+                "-Wmisleading-indentation ",
+                "-Wduplicated-cond ",
+                "-Wduplicated-branches ",
+                "-Wlogical-op ",
+                "-Wnull-dereference ",
+                "-Wuseless-cast ",
+                "-Wdouble-promotion ",
+                "-Wformat=2 ",
+                "-Wlifetime"
+            ],
+            "compileCommands": "${workspaceRoot}\\build\\compile_commands.json"
+        }
+    ],
+    "version": 4
+}
